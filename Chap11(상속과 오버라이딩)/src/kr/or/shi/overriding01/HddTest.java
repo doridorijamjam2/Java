@@ -1,4 +1,4 @@
-package overriding01;
+package kr.or.shi.overriding01;
 
 public class HddTest {
 
