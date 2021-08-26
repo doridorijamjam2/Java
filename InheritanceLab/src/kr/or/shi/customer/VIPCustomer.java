@@ -33,4 +33,12 @@ public class VIPCustomer extends Customer {
         return agentID;
     }
 
+    @Override
+    public int calcPrice(int price) {
+
+        bonusPoint += price * bonusRatio;
+        price -= (int)(price * bonusRatio);
+        return  price;
+    }
+
 }
