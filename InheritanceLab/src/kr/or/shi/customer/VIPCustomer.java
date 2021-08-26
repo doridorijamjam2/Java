@@ -34,6 +34,9 @@ public class VIPCustomer extends Customer {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 13e925343941fe415e90d0abec31d81b3e01bf42
     @Override
     public int calcPrice(int price) {
 
@@ -42,6 +45,9 @@ public class VIPCustomer extends Customer {
         return  price;
     }
 
+<<<<<<< HEAD
 =======
 >>>>>>> 0e89065 (12day)
+=======
+>>>>>>> 13e925343941fe415e90d0abec31d81b3e01bf42
 }

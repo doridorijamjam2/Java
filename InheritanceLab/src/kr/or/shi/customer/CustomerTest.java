@@ -4,6 +4,9 @@ public class CustomerTest {
 
     public static void main(String[] args){
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 13e925343941fe415e90d0abec31d81b3e01bf42
         Customer customerLee = new Customer();
 //        customerLee.setCustomerName("이순신");
 //        customerLee.setCustomerID(10010);
@@ -27,6 +30,7 @@ public class CustomerTest {
         price = gc.calcPrice(1000);
         System.out.println(gc.showCustomerInfo() + " " + price);
 
+<<<<<<< HEAD
 =======
 /*        Customer customerLee = new Customer();
         customerLee.setCustomerName("이순신");
@@ -40,5 +44,7 @@ public class CustomerTest {
         vipcustomerKim.bonusPoint = 1000;
         System.out.println(vipcustomerKim.showCustomerInfo());
 >>>>>>> 0e89065 (12day)
+=======
+>>>>>>> 13e925343941fe415e90d0abec31d81b3e01bf42
     }
 }
