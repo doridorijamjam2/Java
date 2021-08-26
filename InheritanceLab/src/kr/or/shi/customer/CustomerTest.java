@@ -21,5 +21,10 @@ public class CustomerTest {
         price = vc.calcPrice(1000);                              //overriding된 메서드가 호출됨.
         System.out.println(vc.showCustomerInfo() + " " + price);
 
+
+        Customer gc = new GoldCustomer(10040, "goldcustomer");
+        price = gc.calcPrice(1000);
+        System.out.println(gc.showCustomerInfo() + " " + price);
+
     }
 }
