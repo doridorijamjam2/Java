@@ -42,7 +42,7 @@ class Eagle extends  Creature{
     public void move() {
         System.out.println("독수리가 하늘을 날아 다닙니다.");
     }
-    public void hunt(){
+    public void fly(){
         System.out.println("독수리가 양닐개를 쯕 펴고 날아다닙니다.");
     }
 }
