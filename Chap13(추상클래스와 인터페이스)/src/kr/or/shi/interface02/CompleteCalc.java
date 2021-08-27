@@ -19,9 +19,9 @@ public class CompleteCalc extends Calculator{
 		System.out.println("모두 구현하고 추가 메서드를 구현했습니다.");
 	}
 	
-	@Override
-	public void description() {
-		System.out.println("Calculator description");
-	}
+//	@Override
+//	public void description() {
+//		System.out.println("Calculator description");
+//	}
 
 }
