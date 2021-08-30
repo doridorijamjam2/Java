@@ -1,4 +1,4 @@
-package abstractt02;
+package kr.or.shi.abstractt02;
 
 public class PlayerLevelTest {
 
