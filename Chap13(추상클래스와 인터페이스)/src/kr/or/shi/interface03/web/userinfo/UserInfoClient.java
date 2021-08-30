@@ -7,6 +7,7 @@ import java.util.Properties;
 
 import kr.or.shi.interface03.domain.userinfo.UserInfo;
 import kr.or.shi.interface03.domain.userinfo.dao.UserInfoDao;
+import kr.or.shi.interface03.domain.userinfo.dao.MsSql.UserInfoMssqlDao;
 import kr.or.shi.interface03.domain.userinfo.dao.MySql.UserInfoMySqlDao;
 import kr.or.shi.interface03.domain.userinfo.dao.Oracle.UserInfoOracleDao;
 
@@ -33,6 +34,9 @@ public class UserInfoClient {
 		}
 		else if(dbType.equals("ORACLE")) {
 			userInfoDao = new UserInfoOracleDao();
+		}
+		else if(dbType.equals("MSSQL")) {
+			userInfoDao = new UserInfoMssqlDao();
 		}
 		else {
 			System.out.println("db error");
