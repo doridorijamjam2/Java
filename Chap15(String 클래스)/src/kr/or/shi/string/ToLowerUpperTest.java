@@ -9,10 +9,7 @@ public class ToLowerUpperTest {
 		System.out.println("대문자 : " + str1.toUpperCase());
 		System.out.println("소문자 : " + str2.toLowerCase());
 		
-		System.out.println(str1.equals(str2));
-		
-		System.out.println(str1.equalsIgnoreCase(str2));
-
+		System.out.println(str1.equals(str2)); 
 	}
 
 }
