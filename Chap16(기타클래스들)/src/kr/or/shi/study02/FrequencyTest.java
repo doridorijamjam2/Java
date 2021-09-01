@@ -16,8 +16,8 @@ public class FrequencyTest {
 		for(int i=0; i<data.length; i++) {
 			arr[data[i]]++;
 			
-		for(int i=0; i<arr.length; i++)
-			System.out.println(i + "번 숫자 --> " + arr[i] + "회");
+		for(int i1=0; i1<arr.length; i1++)
+			System.out.println(i1 + "번 숫자 --> " + arr[i1] + "회");
 		System.out.println();
 //			if(data[i] == 0) {
 //				count++;
