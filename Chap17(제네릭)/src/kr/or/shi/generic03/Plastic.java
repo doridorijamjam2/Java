@@ -1,10 +1,9 @@
 package kr.or.shi.generic03;
 
-public class Plastic extends Material{
-	
+public class Plastic extends Material {
+
 	@Override
 	public String toString() {
-		
 		return "재료는 Plastic 입니다.";
 	}
 
@@ -13,5 +12,4 @@ public class Plastic extends Material{
 		// TODO Auto-generated method stub
 		
 	}
-
 }

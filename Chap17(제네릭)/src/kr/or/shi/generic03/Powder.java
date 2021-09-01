@@ -4,8 +4,8 @@ public class Powder extends Material{
 	
 	@Override
 	public String toString() {
-	
-		return "재료는 Powder 입니다.";
+		
+		return "재료는 Powder입니다.";
 	}
 
 	@Override
@@ -13,5 +13,4 @@ public class Powder extends Material{
 		// TODO Auto-generated method stub
 		
 	}
-
 }

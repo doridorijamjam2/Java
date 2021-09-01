@@ -1,22 +1,15 @@
 package kr.or.shi.generic02;
 
-import kr.or.shi.generic.Powder;
+public class Tv<E> {
 
-public class TV<E> {
-	
-private TV e;
-	
-	public TV getMaterial() {
+	private E e;
+
+	public E getE() {
 		return e;
 	}
-	
-	public void setMaterial(TV e) {
+
+	public void setE(E e) {
 		this.e = e;
 	}
 	
-	@Override
-	public String toString() {
-		return "재료는 Powder 입니다.";
-	}
-
 }

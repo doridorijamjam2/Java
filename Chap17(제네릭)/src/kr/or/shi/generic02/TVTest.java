@@ -1,16 +1,13 @@
 package kr.or.shi.generic02;
 
-public class TVTest {
+public class TvTest {
 
 	public static void main(String[] args) {
 		
-		
-		TV<String> tv = new TV<>();
+		Tv<String> tv = new Tv<>();
 		tv.setE("LG OLED TV");
-		String tvname = tv.getE();
+		String tvName = tv.getE();
 		
-		System.out.println("나의 TV는 " + tvName + 입니다.);
-
+		System.out.println("나의 TV는 " +tvName+ "입니다.");
 	}
-
 }

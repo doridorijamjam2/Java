@@ -1,16 +1,17 @@
 package kr.or.shi.generic;
 
 public class ThreeDPrinter02 {
-	
-private Plastic material;
-	
+
+	private Plastic material;
+
 	public Plastic getMaterial() {
 		return material;
 	}
-	
-	public void setMaterial(Plastic plastic) {
-		this.material = plastic;
+
+	public void setMaterial(Plastic material) {
+		this.material = material;
 	}
 	
-
+	
+	
 }
