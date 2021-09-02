@@ -9,11 +9,13 @@ public class MemberArrayListTest {
 		Member memberRyu = new Member(1002, "류현진");
 		Member memberChoi = new Member(1003, "최지만");
 		Member memberKim = new Member(1004, "김하성");
+		Member memberKim2 = new Member(1004, "김하성");
 		
 		memberArrayList.addMember(memberLee);
 		memberArrayList.addMember(memberRyu);
 		memberArrayList.addMember(memberChoi);
 		memberArrayList.addMember(memberKim);
+		memberArrayList.addMember(memberKim2);
 		
 		memberArrayList.showAllMember();
 
