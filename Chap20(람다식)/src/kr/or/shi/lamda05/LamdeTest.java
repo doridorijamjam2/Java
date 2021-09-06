@@ -22,7 +22,7 @@ public class LamdeTest {
 		System.out.println("매개변수 2개와 리턴값 있는 람다식의 값 : " + result);
 		
 		myInterface = (x, y) -> add(x, y);
-		result = myInterface.method(1000, 200);
+		result = myInterface.method(700, 200);
 		System.out.println("매개변수 2개와 리턴값 있는 람다식의 값 : " + result);
 	}
 	
