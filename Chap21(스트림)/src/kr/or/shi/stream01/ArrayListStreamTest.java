@@ -27,6 +27,12 @@ public class ArrayListStreamTest {
 		//스트림의 length를 가져와서 하나씩 length를 출력함.
 		sList.stream().map(s -> s.length()).forEach(n -> System.out.print(n + "\t"));
 		
+		System.out.println();
+		//갖고 있는 스트림에서 length가 5보다 큰것을 출력하라.
+		sList.stream().filter(s -> s.length() >=5).forEach(s -> System.out.println(s)
+				);
+		
+		
 
 	}
 
