@@ -14,7 +14,7 @@ public class FileWriterTest {
 			fw.write(buf);                                
 			fw.write("안녕하세요. 잘 써지네요!!");               //String 출력
 			fw.write(buf, 1, 2);                           //문자 배열의 일부 출력
-			fw.write(65);
+			fw.write(65);              
 			
 		} catch (IOException e) {
 			
