@@ -13,7 +13,7 @@ import java.io.OutputStream;
 public class FileOutputStreamTest2 {
 
 	public static void main(String[] args) throws FileNotFoundException {
-		OutputStream fos = new FileOutputStream("output3.txt");
+		OutputStream fos = new FileOutputStream("output3.txt", true);
 		
 		try(fos){
 			
