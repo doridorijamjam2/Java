@@ -16,11 +16,19 @@ import java.io.Serializable;
  * Serialization 인터페이스
  *   - 직렬화는 인스턴스의 내용이 외부로 유출되는 것이므로 프로그래머가 해당 객체에 대한 직렬화 의도를 표시해야 함.  
  *   - 구현 코드가 없는 marker interface.
+<<<<<<< HEAD
+=======
+ *   - transient : 직렬화 하지 않으려는 멤버 변수에 사용함. (Socket등 직렬화 할수 없는 객체)
+>>>>>>> 4d6bab5 (21day)
  */
 
 class Person implements Serializable{
 	String name;
+<<<<<<< HEAD
 	String job;
+=======
+	transient String job;      
+>>>>>>> 4d6bab5 (21day)
 	
 	public Person() {}
 	public Person(String name, String job) {
