@@ -62,12 +62,10 @@ public class VectorTest {
 		//반복자로 출력하기
 		Iterator<Board> iterator = vector.iterator();
 		while(iterator.hasNext()) {                //가져올 데이터 있는지 접근
-<<<<<<< HEAD
+
 			Board board = iterator.next();         //있으면 가져옴
-=======
-			Board board = iterator.next(); 
-			//있으면 가져옴
->>>>>>> 4d6bab5 (21day)
+
+
 			System.out.println(board.subject + board.content + board.writer);
 		}
 	

@@ -24,11 +24,9 @@ import java.io.Serializable;
 
 class Person implements Serializable{
 	String name;
-<<<<<<< HEAD
-	String job;
-=======
-	transient String job;      
->>>>>>> 4d6bab5 (21day)
+
+	String job;     
+
 	
 	public Person() {}
 	public Person(String name, String job) {
