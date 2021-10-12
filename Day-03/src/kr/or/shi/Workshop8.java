@@ -1,3 +1,4 @@
+
 package kr.or.shi;
 
 import java.util.Scanner;
@@ -53,7 +54,7 @@ class HealthChild extends HealthSuper{
 			s_weight = (tall - 100) * 0.9;
 			fat = (weight / s_weight) * 100;
 		}
-		else {
+		else if(a =="F"){
 			s_weight = (tall - 100) * 0.85;
 			fat = (weight / s_weight) * 100;
 		}
@@ -96,8 +97,11 @@ public class Workshop8 {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.printf("성별(M/F) : ");
 		String q = sc.next();
+		System.out.printf("신장(Cm) : ");
 		double w = sc.nextDouble();
+		System.out.printf("체중(Kg) : ");
 		double e = sc.nextDouble();
 		
 		HealthChild aa = new HealthChild(q, w, e);

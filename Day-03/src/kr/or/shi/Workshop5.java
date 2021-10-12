@@ -1,3 +1,4 @@
+
 package kr.or.shi;
 
 class SalarySuper{
